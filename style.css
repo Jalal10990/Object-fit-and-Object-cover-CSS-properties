@@ -1,0 +1,31 @@
+.container{
+    height: 400px;
+    width: 480px;
+    background-color: aqua;
+    border: 2px solid rgb(219, 247, 3);
+}
+img{
+  
+    width: 480px;
+    height: 400px;
+    object-fit: cover;
+    /* object-fit: contain; */
+    /* object-position: top right; */
+    /* object-position: 10px 20px; */
+    /* object-position: bottom right; */
+    /* object-fit: fill; */
+    /* object-fit: scale-down; */
+}
+.container2{
+    height: 400px;
+    width: 480px;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: no-repeat; if pic is  to small pic iss repeat  */
+    border: 2px solid rgb(219, 247, 3);
+    background-image: url(img2.png);
+    /* background-position: top right; */
+/* background-position: center center; */
+background-clip: border-box;
+
+
+}
